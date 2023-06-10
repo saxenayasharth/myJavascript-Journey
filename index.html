@@ -3,7 +3,9 @@
   <head>
     <title>Google Search</title>
     <script>
-      let p = fetch("https://www.google.com/");
+      let p = fetch(
+        "https://maps.googleapis.com/maps/api/place/textsearch/output?parameters"
+      );
       p.then((value1) => {
         return value1.json;
       }).then((value2) => {
