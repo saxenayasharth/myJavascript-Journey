@@ -1,0 +1,19 @@
+What is javascript?
+Javascript is a scripting language 
+What is hoisting?
+What is undefined?
+What is a window object?
+What is a API?
+In order to inhance the functionality & expose it the outer world we use web API
+google APIs
+github APIs
+MAP APIs
+
+Javascript deals with three prefixis var let & const
+which is undefined without context
+
+Restaurant 
+Kitchen queue
+Tandoor queue
+
+Eventloop CallBack

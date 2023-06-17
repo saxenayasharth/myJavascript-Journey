@@ -1,0 +1,64 @@
+settimeout(just tell me the name of the function, time in miliseconds) 
+Ex->
+var print = function() {
+    console.log(1);
+    setTimeout(abc,1000);
+    setTimeout(function(){console.log(3);},0);
+    console.log(4);
+};
+function abc(){
+    console.log("Do some work")
+}
+print();
+
+Higher order functions:
+Any function which another function as a parameter 
+
+var print = function() {
+    console.log(1); // butter paneer
+    setTimeout(function(){console.log(2);},1000); // Tandori Chicken 
+    setTimeout(function(){console.log(3);},0); // Tandori Item 
+    console.log(4); // Naan 
+}; // declaration just a order like in a rest.
+
+print(); // Callled
+
+
+-> //check wheather a string is palindrome
+
+function palindrome(str)
+{
+    //take a string input from the user
+    //check the length
+    //lenghth divide by 2
+    //comapre the characters
+    //output print whether 
+    let isPalindrome = false;
+    let length = str.length;
+    length = length/2; //5/2=2
+    for(i=0;i<length;i++){
+    if(str.charAt(i)!==str.charAt((str.length-1)-i))
+    {
+        isPalindrome = false;
+        break;
+    }
+        else{
+           isPalindrome = true;
+        }
+    }
+    console.log(isPalindrome);
+    
+    
+    
+}
+palindrome("MADAM");
+palindrome("MADAMdds");
+
+// M A D A M
+// 0 1 2 3 4
+
+Filter
+Map
+What are arrow functions in JavaScript
+What are Promises in JavaScript?
+Explain the concept of event delegation in JavaScript.
